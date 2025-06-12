@@ -239,6 +239,7 @@ body {
 }
 
 .box-bd ul li {
+  position: relative;
   float: left;
   margin-right: 15px;
   margin-bottom: 15px;
@@ -247,12 +248,18 @@ body {
   background-color: #fff;
 }
 
-.box-bd ul li img {
+.box-bd ul li>img {
   width: 100%;
 }
 
 .box-bd ul li h4 {
   margin: 10px 25px
+}
+
+.box-bd ul li em {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .box-bd .info {
